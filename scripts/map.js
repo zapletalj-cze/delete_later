@@ -440,7 +440,7 @@ $(window).on('load', function() {
 
     completePolygons = true;
   }
-  
+
 
   function updatePolygons() {
     p = polygon;
