@@ -440,6 +440,46 @@ $(window).on('load', function() {
 
     completePolygons = true;
   }
+  // Přidání letištních bodů do stávající mapy
+var airportData = [
+  {
+    name: "Václav Havel Airport",
+    description: "Hlavní letiště v Praze",
+    coordinates: [50.1008, 14.2632],
+    color: "blue",
+    icon: "plane"
+  },
+  {
+    name: "Praha-Kbely Airport",
+    description: "Vojenské letiště",
+    coordinates: [50.1219, 14.5439],
+    color: "red",
+    icon: "plane"
+  },
+  {
+    name: "Praha-Točná Airport",
+    description: "Historické letiště",
+    coordinates: [49.9734, 14.4450],
+    color: "green",
+    icon: "plane"
+  },
+  {
+    name: "Praha-Letňany Airport",
+    description: "Menší civilní letiště",
+    coordinates: [50.1362, 14.5145],
+    color: "orange",
+    icon: "plane"
+  }
+];
+
+// Přidání bodů do mapy
+airportData.forEach(function(airport) {
+  var markerIcon = createMarkerIcon(airport.icon, 'fa', airport.color, 'white');
+  var marker = L.marker(airport.coordinates, { icon: markerIcon })
+    .bindPopup("<b>" + airport.name + "</b><br>" + airport.description)
+    .addTo(map); // Používá stávající instanci mapy
+});
+
 
 
   function updatePolygons() {
