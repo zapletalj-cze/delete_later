@@ -69,70 +69,11 @@
         "type": "LineString"
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Václav Havel Airport Prague (Letiště Václava Havla Praha)"
-      },
-      "geometry": {
-        "coordinates": [
-          14.52493129725383,
-          50.13154671451326
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Praha-Kbely Airport"
-      },
-      "geometry": {
-        "coordinates": [
-          14.540512309284736,
-          50.12214919491916
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Praha-Letňany Airport"
-      },
-      "geometry": {
-        "coordinates": [
-          14.252277891889491,
-          50.102322958753604
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Praha-Točná Airport"
-      },
-      "geometry": {
-        "coordinates": [
-          14.426857081682726,
-          49.98538658325157
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "UFO Airport Albertov 6"
-      },
-      "geometry": {
-        "coordinates": [
-          14.424554988272263,
-          50.06883128774194
-        ],
-        "type": "Point"
-      }
-    }
+
+    
+
+
+  
+  
   ]
 }
